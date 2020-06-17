@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="minesweeper.css">
 </head>
 <body>
-  <div class="my-container">
+  <div class="info-container">
     <div class="row my-3 align-items-center text-center">
       <div class="col-4 flags-left">
         <h3>Flags left: </h3>
@@ -18,10 +18,23 @@
       <div class="col-4 reset">
         <img src="img/smiley.svg" alt="">
       </div>
-      <div class="col-4 timer">
-        <h3>0:00</h3>
+      <div class="col-4">
+        <div class="row">
+          <div class="col timer">
+            <h3>0:00</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="switch-mode btn btn-light mine border"></div>
+          </div>
+
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="table-container">
     <table>
       <tbody id="minesweeper">
         <!-- Dear Student, would you write a bunch of HTML here or generate
