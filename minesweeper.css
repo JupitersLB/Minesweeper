@@ -52,13 +52,13 @@ body {
   height: 100%;
 }
 
-.mine {
+.mine-button {
   background: url('img/mine.png');
   background-size: cover;
   background-position: center;
 }
 
-.flagged {
+.flagged-button {
   background: url('img/flag.svg');
   background-size: cover;
   background-position: center;
